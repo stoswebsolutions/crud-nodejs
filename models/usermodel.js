@@ -32,6 +32,10 @@ var userSchema = new mongoose.Schema({
     gender: {
         type: String,
         require: true
+    },
+    image: {
+        type: String,
+        require: true
     }
 })
 
